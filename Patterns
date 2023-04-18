@@ -1,0 +1,11 @@
+pattern for EMAIL:
+@"\w+[@]\w+[.][a-zA-z]+$
+pattern for FULLNAME, LASTNAME, etc:
+@"^\b[А-ЯA-Z]\w*"
+pattern for TELEPHONENUMBER: 
+Haven`t plus: @"^\d*$"
+Have +: @"^[+]\d*$
+pattern for CARDSNUMBER:
+^\d*$
+pattern for CVC: 
+^\d*$
